@@ -2,7 +2,6 @@ package com.infullmobile.hackatoninstant.feature
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
 import rx.android.schedulers.AndroidSchedulers
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun processCsvResponse(csvText: String?) {
-        textView.text = csvText
+//        textView.text = csvText
     }
 
 }

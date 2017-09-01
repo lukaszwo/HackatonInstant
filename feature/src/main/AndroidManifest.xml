@@ -8,6 +8,7 @@
     <application android:name=".InstantApplication">
         <meta-data
             android:name="asset_statements"
+            android:label="Hackaton Instant"
             android:resource="@string/asset_statements"/>
         <activity android:name=".MainActivity">
             <tools:validation testUrl="https://instantapp-2fb83.firebaseapp.com/category/category.html"/>
