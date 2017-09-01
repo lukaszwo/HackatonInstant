@@ -8,7 +8,7 @@ data class IdeaEntity(
         val teamSeptemberHackathonCURRENT: String? = null,
 
         @field:SerializedName("Idea")
-        val idea: String? = null,
+        val idea: String,
 
         @field:SerializedName("Team @ July Hackathon")
         val teamJulyHackathon: String? = null,
