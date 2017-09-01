@@ -21,7 +21,7 @@ class IdeaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val teamString = "${ideaEntity.teamAugustHackathon} ${ideaEntity.teamJulyHackathon} ${ideaEntity.teamJuneHackathon} ${ideaEntity.teamMayHackathon} ${ideaEntity.teamSeptemberHackathonCURRENT}"
         if (teamString.isBlank()) teamLabel.visibility = View.GONE
         else teamLabel.visibility = View.VISIBLE
-        
+
         teamPeople.text = teamString
     }
 
