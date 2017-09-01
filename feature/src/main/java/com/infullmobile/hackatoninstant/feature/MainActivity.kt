@@ -2,11 +2,7 @@ package com.infullmobile.hackatoninstant.feature
 
 import android.app.Activity
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.util.Log
-import com.google.gson.Gson
 import com.infullmobile.hackatoninstant.feature.data.CsvToJsonConverter
-import com.infullmobile.hackatoninstant.feature.data.IdeaEntity
 import rx.android.schedulers.AndroidSchedulers
 
 class MainActivity : Activity() {
@@ -25,9 +21,9 @@ class MainActivity : Activity() {
 
     private fun processCsvResponse(csvText: String?) {
         val json = csvToJsonConverter.csvToJson(csvText)
-        val ideaEntity = Gson().fromJson<IdeaEntity>(json, IdeaEntity::class.java)
+//        val ideaEntity = Gson().fromJson<List<IdeaEntityList>>(json, IdeaEntityList::class.java)
 
-        Log.d("", ideaEntity.toString())
+//        Log.d("", ideaEntity.toString())
     }
 
 }
