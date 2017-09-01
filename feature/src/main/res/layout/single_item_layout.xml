@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_marginTop="@dimen/team_header_margin_top"
-    android:layout_marginBottom="@dimen/idea_header_margin_bottom"
-    android:layout_marginLeft="@dimen/list_item_margin_sides"
-    android:layout_marginRight="@dimen/list_item_margin_sides"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/ideaHeader"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/idea_header_margin_bottom"
-        android:textSize="@dimen/idea_header_text_size"
-        android:textColor="@color/cyanoGreen"
-        tools:text="SCRUM POKER FOR iOS"/>
-
-    <TextView
-        android:id="@+id/ideaDescription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/idea_description_text_size"
-        android:textColor="@color/grayLight"
-        tools:text="Possible extension if you have enough manpower: iMessage addon for running scrum poker inside iMessage group /PT "/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_margin_sides"
+        android:layout_marginRight="@dimen/list_item_margin_sides"
         android:layout_marginTop="@dimen/team_header_margin_top"
-        android:layout_marginBottom="@dimen/idea_header_margin_bottom"
-        android:textColor="@color/grayDark"
-        android:text="@string/team_header"/>
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/teamPeople"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/grayDark"
-        tools:text="Kuba Reinhard, Adam Kalin, Paweł Świętochowski, Jan Gonera, Dominik Hys, Ievgen Ukrainets"/>
+        <TextView
+            android:id="@+id/ideaHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/idea_header_margin_bottom"
+            android:textColor="@color/cyanoGreen"
+            android:textSize="@dimen/idea_header_text_size"
+            tools:text="SCRUM POKER FOR iOS"/>
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/ideaDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grayLight"
+            android:textSize="@dimen/idea_description_text_size"
+            tools:text="Possible extension if you have enough manpower: iMessage addon for running scrum poker inside iMessage group /PT "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/idea_header_margin_bottom"
+            android:layout_marginTop="@dimen/team_header_margin_top"
+            android:text="@string/team_header"
+            android:textColor="@color/grayDark"/>
+
+        <TextView
+            android:id="@+id/teamPeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grayDark"
+            tools:text="Kuba Reinhard, Adam Kalin, Paweł Świętochowski, Jan Gonera, Dominik Hys, Ievgen Ukrainets"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
