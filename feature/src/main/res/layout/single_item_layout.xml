@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/idea_header_margin_bottom"
             android:layout_marginTop="@dimen/team_header_margin_top"
-            android:text="@string/team_header"
+            android:text="TEAM"
             android:textColor="@color/grayDark"/>
 
         <TextView
