@@ -41,14 +41,14 @@ proguard/
 *.iml
 *.ipr
 *.iws
-.idea/
+
 
 # Crashlytics files
 crashlytics-build.properties
 
 com_crashlytics_export_strings.xml
 
-
+/.idea
 
 #Fabric key
 
