@@ -41,7 +41,7 @@ proguard/
 *.iml
 *.ipr
 *.iws
-.idea/
+
 
 # Crashlytics files
 crashlytics-build.properties
