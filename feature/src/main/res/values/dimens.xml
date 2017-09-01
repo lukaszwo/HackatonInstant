@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="listHeader">20dp</dimen>
+    <!--list general-->
+    <dimen name="list_item_margin_top">20dp</dimen>
+    <dimen name="list_item_margin_bottom">55dp</dimen>
+    <dimen name="list_item_margin_sides">35dp</dimen>
+
+    <!--idea header-->
+    <dimen name="idea_header_text_size">20dp</dimen>
+    <dimen name="idea_header_margin_bottom">10dp</dimen>
+
+    <!--idea description-->
+    <dimen name="idea_description_text_size">12dp</dimen>
+
+    <!--team header-->
+    <dimen name="team_header_margin_top">15dp</dimen>
+    <dimen name="team_header_margin_bottom">25dp</dimen>
 </resources>

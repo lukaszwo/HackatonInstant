@@ -11,15 +11,6 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/listHeader"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="@dimen/listHeader"
-            tools:ignore="SpUsage"
-            tools:text="zgloszone pomysly"/>
-
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"

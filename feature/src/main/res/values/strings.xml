@@ -1,2 +1,4 @@
 <resources>
+    <string name="teams_label">HACKteams</string>
+    <string name="team_header">TEAM</string>
 </resources>

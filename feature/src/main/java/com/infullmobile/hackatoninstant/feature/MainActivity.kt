@@ -1,5 +1,6 @@
 package com.infullmobile.hackatoninstant.feature
 
+import android.app.Activity
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
@@ -8,7 +9,7 @@ import com.infullmobile.hackatoninstant.feature.data.CsvToJsonConverter
 import com.infullmobile.hackatoninstant.feature.data.IdeaEntity
 import rx.android.schedulers.AndroidSchedulers
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
 
     private val csvToJsonConverter = CsvToJsonConverter()
 
