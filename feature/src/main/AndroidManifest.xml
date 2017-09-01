@@ -8,24 +8,23 @@
             android:name="asset_statements"
             android:resource="@string/asset_statements"/>
         <activity android:name=".MainActivity">
-            <tools:validation testUrl="https://docs.google.com/spreadsheets/d/14Z_jzOHiUYRkuyRYdw1JhMtiBAxcL0aN1gDRGSdkzY4/edit#gid=0"/>
+            <tools:validation testUrl="https://instantapp-2fb83.firebaseapp.com/category/category.html"/>
 
-            <intent-filter android:order="1"
-                           android:autoVerify="true">
-                <action android:name="android.intent.action.VIEW"/>
-
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-
-                <data
-                    android:host="infullmobile.com"
-                    android:scheme="https"
-                    android:pathPrefix="/hackatoninstant"/>
-            </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="instantapp-2fb83.firebaseapp.com"
+                    android:scheme="https"
+                    android:pathPrefix="/category/"/>
             </intent-filter>
         </activity>
     </application>
