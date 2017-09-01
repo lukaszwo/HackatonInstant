@@ -3,7 +3,9 @@
           xmlns:tools="http://schemas.android.com/tools"
           package="com.infullmobile.hackatoninstant.feature">
 
-    <application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:name=".InstantApplication">
         <meta-data
             android:name="asset_statements"
             android:resource="@string/asset_statements"/>
@@ -23,8 +25,8 @@
 
                 <data
                     android:host="instantapp-2fb83.firebaseapp.com"
-                    android:scheme="https"
-                    android:pathPrefix="/category/"/>
+                    android:pathPrefix="/category/"
+                    android:scheme="https"/>
             </intent-filter>
         </activity>
     </application>
